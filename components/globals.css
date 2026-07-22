@@ -1,0 +1,24 @@
+/* styles/globals.css */
+.bg-confetti-pattern {
+  background-image: url('/<"https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/">Free SVG Backgrounds and Patterns by SVGBackgrounds.com'); /* or use a fun party image */
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+}
+/* styles/globals.css */
+.text-glow-yellow {
+  color: #facc15; /* Tailwind's yellow-400 */
+  text-shadow: 0 0 8px #facc15, 0 0 12px #facc15, 0 0 16px #facc15;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.05); }
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
